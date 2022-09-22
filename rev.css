@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body{font-family: verdana;}
+  
+  header{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  }
+  
+  .text{
+    left: 56%;
+      position: absolute;
+      color: rgb(0, 0, 0);
+      line-height: 1.5;
+      text-align: center;
+     
+  }
+  
+  .overlay{
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      /* background-color: #18266c; */
+      opacity: 0.7;
+  }
+  
+  .button{
+      background: rgb(113, 255, 255);
+      border-radius: 40px;
+      color: #18266c;
+      font-size: 1.2em;
+      padding: .7em 1.2em;
+      text-decoration: none;
+      box-sizing: border-box;
+      cursor: pointer;
+  }
+  
+  h1{font-size: 1.5em;}
+  
+  p{
+      font-size: 1.5em;
+      margin-bottom: 1em;
+  }
+  
